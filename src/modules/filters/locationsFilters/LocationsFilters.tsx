@@ -84,8 +84,8 @@ const LocationsFilters = observer(() => {
                width="326px"
                value={name}
                setValue={handleNameChange}
-               placeholder={'Filter by name...'}
-               id={'name'}
+               placeholder="Filter by name..."
+               id="name"
             />
             {isMobile ? (
                <ModalFilter onClick={onClickApply}>
@@ -93,15 +93,15 @@ const LocationsFilters = observer(() => {
                      data={stateType}
                      setData={setStateType}
                      arrValue={arrLocationType}
-                     id={'type'}
-                     label={'type'}
+                     id="type"
+                     label="type"
                   />
                   <FilteredSelect
                      data={stateDimension}
                      setData={setStateDimension}
                      arrValue={arrLocationsDimension}
-                     id={'dimension'}
-                     label={'dimension'}
+                     id="dimension"
+                     label="dimension"
                   />
                </ModalFilter>
             ) : (
@@ -110,15 +110,15 @@ const LocationsFilters = observer(() => {
                      data={stateType}
                      setData={setStateType}
                      arrValue={arrLocationType}
-                     id={'type'}
-                     label={'type'}
+                     id="type"
+                     label="type"
                   />
                   <FilteredSelect
                      data={stateDimension}
                      setData={setStateDimension}
                      arrValue={arrLocationsDimension}
-                     id={'dimension'}
-                     label={'dimension'}
+                     id="dimension"
+                     label="dimension"
                   />
                </>
             )}

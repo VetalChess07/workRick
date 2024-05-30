@@ -45,19 +45,22 @@ const CharactersCard: FC<CharactersCardProps> = ({
    image,
 }) => {
    return (
-      <Card sx={styleCard} component={Link} to={`/character/${id}`}>
-         <CardMedia
-            sx={styleImage}
-            component="img"
-            alt={name}
-            image={image}
-            title={name}
-         />
-         <CardContent sx={styleCardContent}>
-            <TitleCard>{name}</TitleCard>
-            <DescriptionCard>{species}</DescriptionCard>
-         </CardContent>
-      </Card>
+      <>
+         {console.log('ff')}
+         <Card sx={styleCard} component={Link} to={`/character/${id}`}>
+            <CardMedia
+               sx={styleImage}
+               component="img"
+               alt={name}
+               image={image}
+               title={name}
+            />
+            <CardContent sx={styleCardContent}>
+               <TitleCard>{name}</TitleCard>
+               <DescriptionCard>{species}</DescriptionCard>
+            </CardContent>
+         </Card>
+      </>
    );
 };
 

@@ -51,8 +51,8 @@ const EpisodesFilters = observer(() => {
             <FilterPostsInput
                value={name}
                setValue={handleNameChange}
-               placeholder={'Name or episode (ex.S01E01)...'}
-               id={'name'}
+               placeholder="Name or episode (ex.S01E01)..."
+               id="name"
                width="500px"
             />
          </InnerFilter>

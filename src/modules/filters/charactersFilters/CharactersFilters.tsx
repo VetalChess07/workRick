@@ -87,8 +87,8 @@ const CharactersFilters = observer(() => {
                width="240px"
                value={name}
                setValue={handleNameChange}
-               placeholder={'Filter by name...'}
-               id={'name'}
+               placeholder="Filter by name..."
+               id="name"
             />
             {isMobile ? (
                <ModalFilter onClick={onClickApply}>
@@ -96,22 +96,22 @@ const CharactersFilters = observer(() => {
                      data={stateSpecies}
                      setData={setStateSpecies}
                      arrValue={arrCharacterSpecies}
-                     id={'species'}
-                     label={'Species'}
+                     id="species"
+                     label="Species"
                   />
                   <FilteredSelect
                      data={stateGender}
                      setData={setStateGender}
                      arrValue={arrCharacterGender}
-                     id={'gender'}
-                     label={'Gender'}
+                     id="gender"
+                     label="Gender"
                   />
                   <FilteredSelect
                      data={stateStatus}
                      setData={setStateStatus}
                      arrValue={arrStatusCharacter}
-                     id={'status'}
-                     label={'Status'}
+                     id="status"
+                     label="Status"
                   />
                </ModalFilter>
             ) : (
@@ -120,22 +120,22 @@ const CharactersFilters = observer(() => {
                      data={stateSpecies}
                      setData={setStateSpecies}
                      arrValue={arrCharacterSpecies}
-                     id={'species'}
-                     label={'Species'}
+                     id="species"
+                     label="Species"
                   />
                   <FilteredSelect
                      data={stateGender}
                      setData={setStateGender}
                      arrValue={arrCharacterGender}
-                     id={'gender'}
-                     label={'Gender'}
+                     id="gender"
+                     label="Gender"
                   />
                   <FilteredSelect
                      data={stateStatus}
                      setData={setStateStatus}
                      arrValue={arrStatusCharacter}
-                     id={'status'}
-                     label={'Status'}
+                     id="status"
+                     label="Status"
                   />
                </>
             )}

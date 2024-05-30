@@ -19,8 +19,8 @@ import { rootStore } from '../../../stores/rootStore';
 const { widthGrid, columnCount, columnWidth, isMobileGridSettings } =
    getGridSettings(window.innerWidth);
 
-let rowHeight = 148;
-let rowHeightMobile = 148;
+const rowHeight = 148;
+const rowHeightMobile = 148;
 
 const LocationsPosts = observer(() => {
    const {

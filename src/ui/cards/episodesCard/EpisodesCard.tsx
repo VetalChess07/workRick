@@ -38,7 +38,7 @@ const EpisodesCard: FC<EpisodesCardProps> = ({
    air_date,
 }) => {
    return (
-      <Card sx={styleCard} component={Link} to={`/location/${id}`}>
+      <Card sx={styleCard} component={Link} to={`/episode/${id}`}>
          <CardContent sx={styleCardContent}>
             <TitleCard>{name}</TitleCard>
             <Text>{air_date}</Text>
